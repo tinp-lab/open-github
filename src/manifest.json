@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3, 
+    "name": "open-github",
+    "version": "0.0.1",
+    "description": "'https://github.com/{選択した文字列}'を別タブで表示します。",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
